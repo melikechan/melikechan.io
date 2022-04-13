@@ -2,14 +2,8 @@ import React from "react";
 
 const Header = () => {
   return (
+    // TODO: implement the header component
     <header>
-      <a href="/">
-        <div>
-          <img src="" />
-          <span>melike</span>
-          <span>chan</span>
-        </div>
-      </a>
     </header>
   );
 };
