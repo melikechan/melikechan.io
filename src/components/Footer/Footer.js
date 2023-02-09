@@ -1,11 +1,11 @@
-import React from 'react';
-import { Layout } from 'antd';
+import React from "react";
+import { Layout } from "antd";
 const year = new Date().getFullYear();
 
 const footerStyle = {
-  backgroundColor: 'rgb(222, 226, 230)',
-  padding: '1%',
-  textAlign: 'center',
+  backgroundColor: "rgb(222, 226, 230)",
+  padding: "1%",
+  textAlign: "center",
 };
 
 const Footer = () => {

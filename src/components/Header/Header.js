@@ -1,21 +1,21 @@
-import React from 'react';
-import melikechanLogo from '../../assets/img/melikechan-logo.svg';
-import './Header.css';
+import React from "react";
+import melikechanLogo from "../../assets/img/melikechan-logo.svg";
+import "./Header.css";
 import {
   MenuOutlined,
   UserOutlined,
   FileTextOutlined,
   MailOutlined,
-} from '@ant-design/icons';
-import MediaQuery from 'react-responsive';
-import { Breadcrumb, Button, Layout } from 'antd';
+} from "@ant-design/icons";
+import MediaQuery from "react-responsive";
+import { Breadcrumb, Button, Layout } from "antd";
 
 const headerStyle = {
-  height: '8%',
-  padding: '1% 2%',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'space-between',
+  height: "8%",
+  padding: "1% 2%",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-between",
   backgroundColor: `rgb(233, 236, 239)`,
 };
 
@@ -24,38 +24,38 @@ const Header = () => {
     <>
       <Layout.Header style={headerStyle}>
         <img
-          className='header-logo'
+          className="header-logo"
           src={melikechanLogo}
-          alt='melikechan-logo'
+          alt="melikechan-logo"
         />
         <nav>
           <MediaQuery minWidth={641}>
             <Button
-              type='link'
+              type="link"
               icon={<UserOutlined />}
-              size='large'
+              size="large"
               style={{
-                fontSize: '1.2rem',
+                fontSize: "1.2rem",
               }}
             >
               About
             </Button>
             <Button
-              type='link'
+              type="link"
               icon={<FileTextOutlined />}
-              size='large'
+              size="large"
               style={{
-                fontSize: '1.2rem',
+                fontSize: "1.2rem",
               }}
             >
               Resume
             </Button>
             <Button
-              type='link'
+              type="link"
               icon={<MailOutlined />}
-              size='large'
+              size="large"
               style={{
-                fontSize: '1.2rem',
+                fontSize: "1.2rem",
               }}
             >
               Contact
@@ -65,7 +65,7 @@ const Header = () => {
           <MediaQuery maxWidth={640}>
             <Breadcrumb>
               <MenuOutlined
-                style={{ fontSize: '3rem', justifySelf: 'right' }}
+                style={{ fontSize: "3rem", justifySelf: "right" }}
               />
             </Breadcrumb>
           </MediaQuery>

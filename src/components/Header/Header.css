@@ -2,14 +2,14 @@ nav {
   display: flex;
   align-items: center;
   align-content: center;
-  justify-content: space-between; 
-}
-  
-.header-logo {
-  width: 5.2rem;  
+  justify-content: space-between;
 }
 
-@media screen and (max-width: 480px){
+.header-logo {
+  width: 5.2rem;
+}
+
+@media screen and (max-width: 480px) {
   header {
     flex-direction: column;
     align-items: center;
@@ -19,5 +19,4 @@ nav {
     width: 8rem;
     margin-bottom: 5%;
   }
-
 }
